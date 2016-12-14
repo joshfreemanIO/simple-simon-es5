@@ -1,3 +1,5 @@
+'use strict';
+
 var simonsStack = {
   simonsButtons: [],
   sequence: [],

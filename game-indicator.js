@@ -1,3 +1,5 @@
+'use strict';
+
 var gameIndicator = {
   $roundIndicator: null,
   $startGameButton: null,

@@ -1,3 +1,5 @@
+'use strict';
+
 var SimpleSimon = {
   gameIndicator: null,
   simonsStack: null,

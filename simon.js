@@ -1,3 +1,5 @@
+'use strict';
+
 $(document).ready(function() {
   gameIndicator.$roundIndicator = $('.round-indicator');
   gameIndicator.$roundNumber = $('.round-number');

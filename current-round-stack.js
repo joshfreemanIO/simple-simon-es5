@@ -1,3 +1,5 @@
+'use strict';
+
 var createRoundStack = function(simonsStack) {
   return {
     sequence: simonsStack.sequence.slice(),

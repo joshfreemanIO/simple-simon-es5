@@ -1,3 +1,5 @@
+'use strict';
+
 var createSimonButton = function($button, simpleSimon) {
   return {
     $htmlButton: $button,
