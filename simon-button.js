@@ -4,6 +4,7 @@ var createSimonButton = function($button, simpleSimon) {
   return {
     $htmlButton: $button,
     SimpleSimon: SimpleSimon,
+    audio: new Audio($button.data('sound')),
 
     activate: function() {
       var self = this;
@@ -28,6 +29,7 @@ var createSimonButton = function($button, simpleSimon) {
 
       this.$htmlButton.removeClass(primaryColor);
       this.$htmlButton.addClass(primaryColor + '-active');
+      this.audio.play();
     },
 
     powerOff: function() {
