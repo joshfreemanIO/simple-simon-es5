@@ -8,7 +8,6 @@ var simonsStack = {
     var randomButton = this._getRandomButton();
 
     this.sequence.push(randomButton);
-    console.log(this.sequence);
   },
 
   resetStack: function() {
