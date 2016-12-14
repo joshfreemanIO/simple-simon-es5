@@ -45,6 +45,7 @@ var SimpleSimon = {
     this.gameIndicator.endGame();
     this.simonsStack.resetStack();
     this.disableButtons();
+    this.gameIndicator.activate(this);
   },
 
   disableButtons: function() {

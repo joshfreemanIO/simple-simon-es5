@@ -4,6 +4,7 @@ $(document).ready(function() {
   gameIndicator.$roundIndicator = $('.round-indicator');
   gameIndicator.$roundNumber = $('.round-number');
   gameIndicator.$startGameButton = $('.start-game');
+  gameIndicator.$gameIndicator = $('.game-indicator');
 
   $('.simple-simon-button').each(function() {
     var button = createSimonButton($(this), SimpleSimon);
@@ -14,7 +15,5 @@ $(document).ready(function() {
   SimpleSimon.gameIndicator = gameIndicator;
   SimpleSimon.simonsStack = simonsStack;
 
-  $('.start-game').click(function() {
-    SimpleSimon.startGame();
-  });
+  gameIndicator.activate(SimpleSimon);
 });
